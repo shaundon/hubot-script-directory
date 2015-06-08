@@ -1,0 +1,25 @@
+{
+  "name": "hubot-script-directory",
+  "version": "1.0.0",
+  "description": "A directory of available hubot scripts from NPM.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaundon/hubot-script-directory.git"
+  },
+  "keywords": [
+    "hubot"
+  ],
+  "author": "Shaun Donnelly <shaundonnelly@gmail.com> (http://sdonnelly.co.uk/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shaundon/hubot-script-directory/issues"
+  },
+  "homepage": "https://github.com/shaundon/hubot-script-directory#readme",
+  "dependencies": {
+    "npm": "^2.11.1"
+  }
+}
