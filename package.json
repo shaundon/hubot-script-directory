@@ -23,5 +23,8 @@
   "dependencies": {
     "express": "^4.12.4",
     "npm": "^2.11.1"
+  },
+  "engines": {
+    "node": "0.10.33"
   }
 }
