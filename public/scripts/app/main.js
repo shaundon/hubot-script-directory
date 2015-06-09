@@ -2,7 +2,8 @@
 
 angular.module('hubotScripts', [
     'ngResource',
-    'ngAnimate'
+    'ngAnimate',
+    'angularMoment'
 ])
 
     // This limits Angular animations to elements that begin

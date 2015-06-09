@@ -1,0 +1,15 @@
+body {
+	background: #5abe57;
+	color: #fff;
+	font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+	margin: 50px auto;
+	width: 70%;
+}
+
+code {
+	font-family: Menlo, Consolas, Courier;
+}
+
+h1 {
+	text-align: center;
+}
