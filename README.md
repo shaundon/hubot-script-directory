@@ -1,10 +1,9 @@
 # hubot-script-directory
+
 A directory of available hubot scripts from NPM.
 
-## Work in progress
+## Shelved!
 
-TODO:
+I've had to shelve this for the moment, as searching NPM requires a download of the entire package list and then filtering it client side (NPM doesn't allow you to filter it when you make the request). This uses way too much memory than Heroku will give me.
 
-* Write a front end
-* Make back end refresh every X minutes
-* Put on Heroku or somewhere similar
+So, until I can find a way around this I'm putting development on hold.
