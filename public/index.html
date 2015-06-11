@@ -8,7 +8,11 @@
 
       <p>Last refreshed <span am-time-ago="packageService.metadata.lastRefreshed"></span>.</p>
 
-      <div ng-repeat="package in packageService.packages">
+      <section>
+        <input type="text" placeholder="Search Packages" ng-model="searchTerms">
+      </section>
+
+      <div ng-repeat="package in packageService.packages | filter:searchTerms">
         <h2>{{package.name}}</h2>
         <p>{{package.description}}</p>
         <p><a ng-href="https://npmjs.com/package/{{package.name}}">View on NPM</a></p>
